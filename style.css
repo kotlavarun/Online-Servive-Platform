@@ -1,0 +1,84 @@
+/* Your CSS styles go here */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('net.avif') no-repeat center center fixed; /* Add your background image URL here */
+    background-size: cover; /* Ensure the image covers the entire background */
+    color: #fff;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.category {
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.category:hover {
+    transform: scale(1.05);
+}
+
+.category-header {
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.hacking-header { background-color: #ff5733; }
+.singing-header { background-color: #ffd633; }
+.stockmarket-header { background-color: #33ff57; }
+.gaming-header { background-color: #33aaff; }
+.dancing-header { background-color: #bf33ff; }
+.coding-header { background-color: #ff33a6; }
+.login-header { background-color: #33aaff; }
+
+.category-content {
+    padding: 20px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+<style>
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: url('aaa.avif') no-repeat center center fixed; /* Add your background image URL here */
+    background-size: cover; /* Ensure the image covers the entire background */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /* Hide overflowing text */
+}
+
+.background-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    color: rgba(255, 255, 255, 0.2); /* Semi-transparent color */
+    font-family: 'Indie Flower', cursive; /* Different handwriting font for NETWORK HUB */
+    z-index: -1; /* Send text behind other elements */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+    margin-top: 50px; /* Adjusted margin to push down the container */
+}
+
+.container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #262626; /* Instagram blue color */
+    font-family: 'Indie Flower', cursive; /* Different handwriting font for NETWORK HUB */
+}
+
+button {
+    background-color: #3897f0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-5px);
+}
+
+.forgot-password {
+    margin-top: 10px;
+    color: #003569;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #003569;
+    text-decoration: none;
+}
+
+.signup-link span {
+    font-weight: bold;
+}
+
+.or-divider {
+    margin: 20px 0;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.social-login {
+    margin-top: 20px;
+}
+
+.social-login button {
+    background-color: #3b5998;
+}
+
+.social-login button:first-child {
+    margin-right: 10px;
+}
+
+.social-login button img {
+    width: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+</style>
+</head>
+<body>
+<div class="background-text">NETWORK HUB</div>
+<div class="container">
+  <h1>Contact</h1>
+  <p>Email: example@example.com</p>
+  <p>Phone: +1234567890</p>
+</div>
+</body>
+</html>
